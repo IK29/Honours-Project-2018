@@ -31,9 +31,6 @@ image = Image.open(inputName)
 imageW = image.size[0]
 imageH = image.size[1]
 
-#print (imageW)
-#print (imageH)
-
 #	Initialise data vector with attribute r,g,b,x,y for each pixel
 dataVector = np.ndarray(shape=(imageW * imageH, 5), dtype=float)
 #	Initialise vector that holds which cluster a pixel is currently in
